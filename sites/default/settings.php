@@ -760,9 +760,9 @@ $databases['default']['default'] = array(
   'database' => getenv("MYSQL_DATABASE"),
   'username' => getenv("MYSQL_USER"),
   'password' => getenv("MYSQL_PASSWORD"),
-  'host' => getenv("MYSQL_HOST"),
+  'host' => "mysql",
   'driver' => "mysql",
-  'port' => getenv("MYSQL_PORT"),
+  'port' => "3306",
   'prefix' => "",
 );
 
